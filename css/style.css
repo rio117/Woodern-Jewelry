@@ -105,14 +105,16 @@ Concept,work
     margin-bottom: 60px;
 }
 
+.content div{
+    flex:1;
+}    
+
 .content .img{
-    width: 50%;
+    width: 100%;
 }
 
 .content .text{
-    width: 50%;
     padding: 0 70px;
-    flex: 1;
 }
 
 /*---------------------------------------------------
