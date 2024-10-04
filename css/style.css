@@ -113,7 +113,7 @@ Concept,work
     width: 100%;
 }
 
-.content .text{
+.content .text-box{
     padding: 0 70px;
 }
 
@@ -130,4 +130,48 @@ Footer
 .logo{
     width: 110px;
 }
+
+/*---------------------------------------------------
+sp
+---------------------------------------------------*/
+@media screen and (max-width: 767px){
+    .section-title{
+        font-size: 1.25rem;
+    }
+/*---------------------------------------------------
+mainvisual
+---------------------------------------------------*/
+    #mainvisual{
+        width: 100%;
+        margin: 0;
+    }
+/*
+heightをvhで指定することで画面の高さを基準にした鷹さになる
+*/   
+    #mainvisual img{
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+/*---------------------------------------------------
+Header
+---------------------------------------------------*/ 
+    #header{
+        max-width: 100%;
+        padding: 20px 18px;
+        margin-bottom: 30px;
+    }
+/*---------------------------------------------------
+Concept,Work
+---------------------------------------------------*/   
+    .container .content{
+        flex-direction: column;
+    }
+
+
+}
+    
+
+
+
 
