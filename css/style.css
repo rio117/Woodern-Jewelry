@@ -163,11 +163,21 @@ Header
     }
 /*---------------------------------------------------
 Concept,Work
----------------------------------------------------*/   
-    .container .content{
+---------------------------------------------------*/ 
+/*
+#workはそのままの順番だとworkと逆になってしまうので
+column-reverseを使って、個別に設定する
+*/  
+    #work{
+        flex-direction: column-reverse;
+    }
+    .content{
         flex-direction: column;
     }
-
+    .text-box{
+        margin-top: 20px;
+        line-height: normal;
+    }
 
 }
     
